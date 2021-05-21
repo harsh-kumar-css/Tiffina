@@ -1,0 +1,50 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Tiffina | Get Started
+  link(rel='stylesheet' href='index2.css')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500;700;900&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,700&display=swap' rel='stylesheet')
+section
+  .first
+    img.obj(src='./object 1.png' alt='object')
+    img(src='./Bg 2.1.png' alt='bg')
+  .title
+    .heading
+      h2 HURRY!!
+      br
+      | HUNGER DON&apos;T WAIT
+  .second
+    button#but_one.but_1 USER&apos;S LOGIN
+    button#but_two.but_1 VENDOR&apos;S LOGIN
+    button#but_three.but_2 REGISTER AS USER
+    button#but_four.but_2 REGISTER AS VENDOR
+    button#but_five.but_1 ADD PRODUCT
+    button#but_six.but_1 GET PRODUCT LIST
+script.
+  document.getElementById("but_one").addEventListener("click", (e) => {
+  window.location.href = "/Tiffina/user/login";
+  });
+  document.getElementById("but_two").addEventListener("click", (e) => {
+  window.location.href = "/Tiffina/vendor/login";
+  });
+  document.getElementById("but_three").addEventListener("click", (e) => {
+  window.location.href = "/Tiffina/user/register";
+  });
+  document.getElementById("but_four").addEventListener("click", (e) => {
+  window.location.href = "/Tiffina/vendor/register";
+  });
+  document.getElementById("but_five").addEventListener("click", (e) => {
+  window.location.href = "/Tiffina/vendor/addItem";
+  });
+  document.getElementById("but_six").addEventListener("click", (e) => {
+  window.location.href = "/vendor/list";
+  });

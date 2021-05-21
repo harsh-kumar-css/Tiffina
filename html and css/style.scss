@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.preloader {
+  width: 100%;
+  height: 100%;
+  background-image: url(./Bg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 65%;
+    height: 40%;
+    margin: 20% 0;
+  }
+  div {
+    width: 30%;
+    height: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      text-decoration: none;
+      padding: 10% 50%;
+      width: 100%;
+      height: 100%;
+      margin: 20% 0;
+      background-color: orange;
+      color: white;
+      border-radius: 10px;
+    }
+  }
+}

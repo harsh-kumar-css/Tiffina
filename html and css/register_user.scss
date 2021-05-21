@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  background-image: url(./Bg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .first {
+    width: 100%;
+    height: 50%;
+    margin-top: -40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .obj {
+      position: absolute;
+      width: 40%;
+      height: 35%;
+    }
+    .bg {
+      background-size: cover;
+    }
+  }
+  .title {
+    width: 100%;
+    height: 40%;
+    margin-top: -20%;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    .heading {
+      width: 100%;
+      height: 40%;
+      padding: 6%;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      h2 {
+        margin-bottom: -7%;
+        font-family: "Noto Sans HK", sans-serif;
+        font-weight: 900;
+        font-size: 1.5em;
+      }
+    }
+  }
+  .second {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .heading {
+      margin: 5px;
+      height: 20%;
+      margin-top: 10%;
+    }
+
+    .form {
+      height: 80%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      form {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        input {
+          width: 100%;
+          padding: 8% 4%;
+          border: 1px solid #777;
+          border-radius: 5px;
+          margin-top: 2.5%;
+          font-size: 1em;
+        }
+        button {
+          margin-top: 20%;
+          width: 70%;
+          padding: 4% 4%;
+          background-color: orange;
+          border: none;
+          border-radius: 5px;
+          color: white;
+        }
+      }
+    }
+  }
+}

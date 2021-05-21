@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiffina | Get Started</title>
+    <link rel="stylesheet" href="index2.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="first">
+        <img src="./object 1.png" alt="object" class="obj" />
+        <img src="./Bg 2.1.png" alt="bg" />
+      </div>
+      <div class="title">
+        <div class="heading">
+          <h2>HURRY!!</h2>
+          <br />HUNGER DON'T WAIT
+        </div>
+      </div>
+      <div class="second">
+        <button class="but_1" id="but_one">USER'S LOGIN</button>
+        <button class="but_1" id="but_two">VENDOR'S LOGIN</button>
+        <button class="but_2" id="but_three">REGISTER AS USER</button>
+        <button class="but_2" id="but_four">REGISTER AS VENDOR</button>
+        <button class="but_1" id="but_five">ADD PRODUCT</button>
+        <button class="but_1" id="but_six">GET PRODUCT LIST</button>
+      </div>
+    </section>
+  </body>
+  <script>
+    document.getElementById("but_one").addEventListener("click", (e) => {
+      window.location.href = "/user/login";
+    });
+    document.getElementById("but_two").addEventListener("click", (e) => {
+      window.location.href = "/vendor/login";
+    });
+    document.getElementById("but_three").addEventListener("click", (e) => {
+      window.location.href = "/user/register";
+    });
+    document.getElementById("but_four").addEventListener("click", (e) => {
+      window.location.href = "/vendor/register";
+    });
+    document.getElementById("but_five").addEventListener("click", (e) => {
+      window.location.href = "/vendor/addItem";
+    });
+    document.getElementById("but_six").addEventListener("click", (e) => {
+      window.location.href = "/vendor/list";
+    });
+  </script>
+</html>

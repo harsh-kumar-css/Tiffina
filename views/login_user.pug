@@ -1,0 +1,30 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title USER LOGIN
+  link(rel='stylesheet' href='/login_user.css')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500;700;900&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,700&display=swap' rel='stylesheet')
+section
+  .first
+    img.obj(src='/object 2.png' alt='object')
+    img.bg(src='/Bg 2.2.png' alt='bg')
+  .second
+    .heading
+      h3 USER&apos;S LOGIN
+    .form
+      form#login_user(action='')
+        input#username_user_login(type='text' placeholder='Enter Username' required)
+        br
+        input#password_user_login(type='password' placeholder='Enter Password' required)
+        button.but_1(type='submit') LOGIN
+script(src='/script.js')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js' integrity='sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==' crossorigin='anonymous' referrerpolicy='no-referrer')
